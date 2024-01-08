@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-</style>* {
+* {
     padding: 0;
     margin: 0;
+    font-family: Merriweather;
 }
 
 .container {
@@ -10,10 +11,23 @@
     max-width: 1300;
 }
 
-h1,
-h4 {
-    font-family: Merriweather;
+
+
+
+
+main section {
+    margin-bottom: 15px;
 }
+
+header,
+main section {
+    border-radius: 16px;
+}
+
+/* h1,
+h4, {
+    font-family: Merriweather;
+} */
 
 
 
@@ -22,34 +36,85 @@ h4 {
 
 header {
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     padding: 160px 0;
 }
 
-#start {
+#header {
     margin: 50px auto 100px;
 }
 
-.header-txt {
+.banner-txt {
     max-width: 632px;
     text-align: center;
     margin: 0 auto;
-    text-shadow: 5px 5px 10px black;
-
-}
-.header-txt h4{
-    color: #FFF;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
 
 }
 
-.header-txt h1{
+.banner-txt h4 {
     color: #FFF;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: 95px; /* 131.944% */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.banner-txt h1 {
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+
+    /* 131.944% */
+}
+
+
+
+
+
+
+
+
+/* offer style */
+#offer .offer-container {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.offer-container h2 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-style: normal;
+
+}
+
+.offer-container p {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    
+
+}
+
+.offer-container h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    /* font-style: normal; */
+}
+.offer-container img{
+    width: 802.9px;
+height: 500px;
+flex-shrink: 0;
 }

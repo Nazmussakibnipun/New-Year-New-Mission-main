@@ -5,12 +5,23 @@
     margin: 0;
     font-family: Merriweather;
 }
-
-.container {
-    margin: 0 auto;
-    max-width: 1300;
-
+header,
+main section {
+    border-radius: 16px;
 }
+
+
+
+
+
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+
 
 
 
@@ -21,9 +32,9 @@ button {
     font-size: 22px;
     transition: 1s;
 }
-
-button:hover {
-    cursor: pointer;
+.container {
+    margin: 0 auto;
+    max-width: 1300;
 }
 
 
@@ -31,10 +42,7 @@ main section {
     margin-bottom: 15px;
 }
 
-header,
-main section {
-    border-radius: 16px;
-}
+
 
 
 /* header style */
@@ -48,14 +56,6 @@ header {
 #header {
     margin: 50px auto 100px;
 }
-
-.banner-txt {
-    max-width: 632px;
-    text-align: center;
-    margin: 0 auto;
-
-}
-
 .banner-txt h4 {
     color: #FFF;
     font-size: 32px;
@@ -64,6 +64,15 @@ header {
     line-height: normal;
 
 }
+
+.banner-txt {
+    max-width: 632px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+
 
 .banner-txt h1 {
     color: #FFF;
@@ -93,15 +102,8 @@ header {
     text-align: center;
 }
 
-.offer-container h2 {
-    color: #F00;
-    text-align: center;
-    font-size: 88px;
-    font-weight: 700;
-    margin-bottom: 50px;
-    font-style: normal;
 
-}
+
 
 .offer-container p {
     color: #F00;
@@ -118,6 +120,14 @@ header {
     text-align: center;
     font-family: Inter;
     font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-style: normal;
+}
+.offer-container h2 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
     font-weight: 700;
     margin-bottom: 50px;
     font-style: normal;
@@ -151,11 +161,6 @@ header {
     align-items: center;
     gap: 45px;
 }
-
-.party-txt {
-    max-width: 720px;
-}
-
 .party-txt h1 {
     color: #FFF;
     font-size: 64px;
@@ -166,13 +171,8 @@ header {
     margin-bottom: 20px;
 }
 
-.party-txt p {
-    color: #FFFFFFCC;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    /* 166.667% */
-    margin-bottom: 50px;
+.party-txt {
+    max-width: 720px;
 }
 
 .party-txt button {
@@ -184,9 +184,17 @@ header {
     background-color: black;
 }
 
-.party-txt button:hover {
-    background-color: #F00;
+.party-txt p {
+    color: #FFFFFFCC;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 50px;
 }
+
+
+
 
 .party-img img {
     /* mix-blend-mode:darken; */
@@ -198,6 +206,9 @@ header {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+}
+.party-txt button:hover {
+    background-color: #F00;
 }
 
 
@@ -264,13 +275,6 @@ header {
     margin:0 auto;
     margin-bottom: 70px;
 }
-
-
-.offer-txt {
-    max-width: 400px;
-    margin-left: 20px;
-}
-
 .offer-txt h3 {
     margin-bottom: 20px;
     color: #F00;
@@ -279,6 +283,14 @@ header {
     font-size: 24px;
     font-weight: 500;
 }
+
+
+.offer-txt {
+    max-width: 400px;
+    margin-left: 20px;
+}
+
+
 
 .offer-txt h1 {
     color: #070211;
@@ -289,13 +301,6 @@ header {
     margin-bottom: 20px;
 }
 
-.offer-txt p {
-    color: #07021199;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    /* 160% */
-}
 
 .offer-img {
     flex-shrink: 0;
@@ -305,6 +310,14 @@ header {
     margin-left: 5%;
 
 }
+.offer-txt p {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
 
 .offer-2024 {
 
@@ -354,6 +367,11 @@ header {
 .function-rect-img {
     position: relative;
 }
+.function-text {
+    max-width: 1068px;
+    margin: 0 auto;
+    padding-bottom: 65px;
+}
 
 .box-img {
     bottom: 0px;
@@ -364,11 +382,7 @@ header {
     text-align: center;
 }
 
-.function-text {
-    max-width: 1068px;
-    margin: 0 auto;
-    padding-bottom: 65px;
-}
+
 
 .function-text h3 {
     color: #070211;
@@ -468,17 +482,18 @@ line-height: normal;
 text-transform: capitalize;
 margin-bottom: 20px;
 }
+.gift-picture{
+    align-items: center;
+    justify-content: space-between;
+    margin: 3px;
+}
+
 
 .gift-text p{
     color:#07021199;
 font-size: 20px;
 font-weight: 400;
 line-height: 32px;
-}
-.gift-picture{
-    align-items: center;
-    justify-content: space-between;
-    margin: 3px;
 }
 
 
@@ -626,3 +641,15 @@ cursor: pointer;
 
 
 /* function secction  */
+
+
+
+
+
+
+
+
+
+
+live:https://nazmussakibnipun.github.io/New-Year-New-Mission-main/
+Repo:https://github.com/Nazmussakibnipun/New-Year-New-Mission-main.git

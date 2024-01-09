@@ -261,6 +261,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin:0 auto;
+    margin-bottom: 70px;
 }
 
 
@@ -300,6 +302,7 @@ header {
     border-radius: 463px;
     border: 15px solid #F00;
     padding: 30px;
+    margin-left: 5%;
 
 }
 

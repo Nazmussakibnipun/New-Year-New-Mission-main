@@ -96,7 +96,7 @@ header {
 
 
 /* offer style */
-#offer .offer-container {
+#offerid .offer-container {
     max-width: 850px;
     margin: 0 auto;
     text-align: center;
@@ -149,7 +149,7 @@ header {
 
 
 
-#party {
+#partyid {
     padding: 60px 130px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
 }
@@ -222,7 +222,7 @@ header {
 
 
 
-#details {
+#detailsid {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 100px 380px;
     text-align: center;
@@ -244,7 +244,7 @@ header {
 
 }
 
-#details button {
+#detailsid button {
 
     padding: 16px 32px;
     /* justify-content: center; */
@@ -268,7 +268,7 @@ header {
 
 
 
-#offer {
+#offerid {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -450,7 +450,7 @@ header {
 
 
 
-#gift {
+#giftid {
 
     text-align: center;
     margin: 0 auto;
@@ -500,7 +500,7 @@ line-height: 32px;
 .row img:hover {
     opacity: 1;
     cursor: pointer;
-    transform: scale(1.03);
+    transform: scale(1.025);
 }
 
 
@@ -513,7 +513,7 @@ line-height: 32px;
 
 
 
-#subscribe{
+#subscribeid{
     margin: 0 auto;
 height: 616px;
 /* flex-shrink: 0; */
@@ -634,22 +634,3 @@ cursor: pointer;
 .footer-text button:hover{
     background-color:orangered;
 }
-
-
-
-
-
-
-/* function secction  */
-
-
-
-
-
-
-
-
-
-
-live:https://nazmussakibnipun.github.io/New-Year-New-Mission-main/
-Repo:https://github.com/Nazmussakibnipun/New-Year-New-Mission-main.git
